@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="counter_max_name">30</integer>
+    <integer name="counter_max_edad">3</integer>
+    <integer name="counter_max_direccion">40</integer>
+    <integer name="counter_max_colonia">40</integer>
+    <integer name="counter_max_estado">15</integer>
+    <integer name="counter_max_email">45</integer>
+    <integer name="counter_max_phone">14</integer>
+</resources>

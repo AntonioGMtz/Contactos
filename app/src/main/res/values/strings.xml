@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Contactos</string>
+    <string name="hint_name">Nombre</string>
+    <string name="helper_required">Requerido</string>
+    <string name="hint_apepat">Apellido Paterno</string>
+    <string name="hint_apemat">Apellido Materno</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_direccion">Direccion</string>
+    <string name="hint_colonia">Colonia</string>
+    <string name="hint_estado">Estado</string>
+    <string name="hint_poblacion">Poblacion</string>
+    <string name="hint_postal">Postal</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Telefono</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

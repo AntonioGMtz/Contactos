@@ -3,33 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<ScrollView
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-    <androidx.recyclerview.widget.RecyclerView
-        android:layout_width="180dp"
-        android:layout_height="match_parent"
-        android:id="@+id/recyclerView"
-        tools:listitem="@layout/item_user"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="@dimen/common_padding_min"/>
-    <ScrollView
-        android:layout_width="210dp"
-        android:layout_height="match_parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
 
 
     <LinearLayout
-        android:layout_width="210dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintStart_toEndOf="@id/recyclerView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_margin="@dimen/common_padding_min"
+        android:layout_margin="18dp"
         android:orientation="vertical">
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilNameAcc"
@@ -231,29 +223,5 @@
 
 
     </LinearLayout>
-    </ScrollView>
-
-
-
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_margin="@dimen/common_padding_default"
-        android:layout_marginBottom="30dp"
-        android:src="@drawable/ic_add"
-        android:id="@+id/fab_add" />
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@id/fab_add"
-        android:layout_margin="@dimen/common_padding_default"
-        android:src="@drawable/ic_more"
-        />
-
-
-
-
+</ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
