@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/containerMain"
     tools:context=".MainActivity">
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="180dp"
@@ -23,6 +24,7 @@
 
 
     <LinearLayout
+        android:id="@+id/lilContenido"
         android:layout_width="210dp"
         android:layout_height="match_parent"
         app:layout_constraintStart_toEndOf="@id/recyclerView"
@@ -30,7 +32,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_margin="@dimen/common_padding_min"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:visibility="visible">
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilNameAcc"
             android:layout_width="match_parent"
